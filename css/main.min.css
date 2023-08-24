@@ -38,13 +38,18 @@ section {
 
 @media screen and (max-width: 991px) {
     html {
-        font-size: 55%
+        font-size: 55%;
     }
 
     section {
         padding: 2rem
     }
 
+    .discord__home img{
+        width: 45% !important;
+        display: block !important;
+        margin: auto !important;
+    }
     
 }
 
@@ -488,7 +493,7 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 80px;
     gap: 20px
 }
 
@@ -618,9 +623,9 @@ body {
 }
 
 .discord__home img {
-    width: 48%;
-    z-index: -2;
-    margin-top: -170px
+    width: 30%;
+    margin-top: -175px;
+    float: right;
 }
 
 .home__more {
@@ -704,7 +709,7 @@ body {
 
 .home__flex img {
     width: 100%;
-    margin-top: -150px
+   
 }
 
 .online_info {
@@ -3013,7 +3018,7 @@ body {
 
 @media screen and (max-width: 1326px) {
     .price__list {
-        width: 70% !important;
+        width: 80% !important;
         margin: 0 auto;
         text-align: center
     }
@@ -3194,7 +3199,7 @@ body {
     }
 
     .home .content {
-        width: 100%
+        width: 60%;
     }
 
     .home .content h1 {
@@ -3206,7 +3211,7 @@ body {
     }
 
     .home .home__link a {
-        font-size: 15px
+        font-size: 15px !important;
     }
 
     .services__list {
@@ -3236,7 +3241,7 @@ body {
     }
 
     .services__link a {
-        font-size: 15px
+        font-size: 15px !important;
     }
 
     .team__item {
@@ -3968,7 +3973,7 @@ body {
     .line {
         width: 91%;
         height: 2px;
-        top: 80%;
+        top: 89%;
         left: 5%;
         right: 0%;
         background: #fff
@@ -3977,8 +3982,8 @@ body {
     .logo-absolute {
         position: absolute;
         width: 90px !important;
-        top: 65%;
-        right: 5%
+        top: 74%;
+        right: 6%;
     }
 
     .home .content h1 {
@@ -4066,7 +4071,8 @@ body {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column
+        flex-direction: column;
+        display: flex !important;
     }
 
     .home div .content h1 {
@@ -4078,7 +4084,7 @@ body {
     }
 
     .home>img {
-        width: 70%
+        width: 50%;
     }
 
     .home__link a {
@@ -4103,7 +4109,7 @@ body {
 
     .home .online__info {
         gap: 20px;
-        width: 80%
+        width: 90%
     }
 
     .home .online__info .info__content {
@@ -4111,7 +4117,7 @@ body {
     }
 
     .home .online__info .online-box {
-        width: 100%;
+        width: 60%;
         padding: 10px
     }
 
@@ -4147,7 +4153,8 @@ body {
         flex-direction: column-reverse;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center
+        align-items: center;
+        
     }
 
     .info>img {
@@ -4401,15 +4408,16 @@ body {
     }
 
     .price__list {
-        width: 100%;
+        width: 100% !important;
         margin: 0 auto;
         margin-top: 80px;
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
         text-align: center
     }
 
     .price__item {
-        width: 100%;
+        width: 55%;
         margin: 20px 0;
         padding: 15px 0 25px 0;
         border: 4px solid #fff;
@@ -4428,34 +4436,37 @@ body {
     }
 
     .price__item h3 {
-        font-size: 38px
+        font-size: 30px
     }
 
     .price__item p {
-        font-size: 25px;
+        font-size: 22px;
         margin-top: -5px
     }
 
     .price__item h1 {
-        font-size: 75px;
-        margin-top: 20px;
-        margin-bottom: 35px
+        font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 28px;
+
+    }
     }
 
     .price__item h4 {
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 600
     }
 
     .price__item a {
         color: #fff;
-        margin-top: 5px;
-        font-size: 35px;
-        display: inline-block;
-        font-weight: 700;
-        padding: 20px 50px;
-        border-radius: 28px;
-        background: #4525a1
+    margin-top: 5px;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 28px;
+    background: #4525a1;
+
     }
 
     .price__item a:hover {
@@ -4475,8 +4486,6 @@ body {
     }
 
     .services__list {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -4485,9 +4494,9 @@ body {
     }
 
     .services__item {
-        padding: 160px 23px 40px 55px;
+        
         display: block;
-        width: 70%
+        width: 60%
     }
 
     .services__item h2 {
@@ -4496,7 +4505,7 @@ body {
     }
 
     .services__item p {
-        font-size: 23px
+        font-size: 10px
     }
 
     .services__item img {
@@ -4593,8 +4602,8 @@ body {
         font-size: 12px;
         line-height: 1.5;
         word-spacing: 2.5px;
-        color: rgba(255, 255, 255, .4235294118)
-    }
+        color: rgba(255, 255, 255, .4235294118);
+    
 }
 
 @media screen and (max-width: 868px) {
@@ -4648,16 +4657,15 @@ body {
         gap: 20px;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between
+        justify-content: space-between;
+        align-items: center;
     }
 
     .home__info-box {
-        width: 100%
+        width: 30% !important;
     }
 
-    .home>img {
-        width: 100%
-    }
+    
 
     .home__link a {
         font-size: 13px
@@ -4716,7 +4724,7 @@ body {
     }
 
     .home .home__link a {
-        font-size: 10px
+        font-size: 7px !important;
     }
 
     .connect__form {
@@ -4795,6 +4803,9 @@ body {
 
     .services__list {
         padding: 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
         line-height: 15px;
         width: 100%
     }
@@ -4945,6 +4956,21 @@ body {
             width: 100% !important;
             margin-left: -30%;
         }
+        .line {
+            width: 91%;
+            height: 2px;
+            top: 95%;
+            left: 5%;
+            right: 0%;
+            background: #fff;
+        }
+        .logo-absolute {
+        
+            position: absolute;
+            width: 12% !important;
+            top: 82%;
+            right: 23%;
+        }
 }
 @media screen and (max-width: 700px) {
     .community__item {
@@ -4956,6 +4982,21 @@ body {
     .home .home__bg {
         width: 100% !important;
         
+    }
+    .line {
+        width: 91%;
+        height: 2px;
+        top: 93%;
+        left: 5%;
+        right: 0%;
+        background: #fff;
+    }
+    .logo-absolute {
+        position: absolute;
+        width: 116px !important;
+        top: 78%;
+        right: 11%;
+    
     }
 }
 @media screen and (max-width: 450px) {
@@ -5003,6 +5044,23 @@ body {
     width: 100% !important;
     
 }
+
+.line {
+    width: 91%;
+    height: 2px;
+    top: 93%;
+    left: 5%;
+    right: 0%;
+    background: #fff;
+}
+.logo-absolute {
+    position: absolute;
+    width: 70px !important;
+    top: 81%;
+    right: 12%;
+
+}
+
 }
 
 @media screen and (max-width: 347px) {
@@ -5020,6 +5078,21 @@ body {
         font-size: 12px !important;
     }
    
+    .line {
+        width: 91%;
+        height: 2px;
+        top: 93%;
+        left: 5%;
+        right: 0%;
+        background: #fff;
+    }
+    .logo-absolute {
+        position: absolute;
+        width: 45px !important;
+        top: 85%;
+        right: 12%;
+    
+    }
 }
 
 @media screen and (max-width: 347px) {
@@ -5031,6 +5104,7 @@ body {
 .bro .bro__item:last-child h4 {
     left: 25% !important;
 }
+  
 }
 
 @media screen and (max-width: 1076px) {
@@ -5040,6 +5114,198 @@ body {
     }
 }
 
+@media screen and (max-width: 576px) {
+    .line {
+        width: 91%;
+        height: 2px;
+        top: 93%;
+        left: 5%;
+        right: 0% !important;
+        background: #fff !important;
+    }
+    
+    .logo-absolute {
+        position: absolute !important;
+        width: 40px !important;
+        top: 85% !important;
+        right: 29% !important;
+    }
+    .services__item {
+        
+        display: block;
+        width: 85%;
+    }
+    .services__link a{
+        font-size: 13px !important;
+    }
+    .discord .discord__left h1 {
+        font-size: 25px !important;
+        margin-bottom: -15px;
+    }
+
+    .online_info .info__content h1 {
+        color: #fff;
+        font-size: 30px;
+    }
+    .online_info .info__content h2 {
+        color: #fff;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .online_info .info__content p {
+        font-size: 16px;
+        line-height: 2.4;
+        color: rgba(255, 255, 255, .7176470588);
+    }
+    .price__title {
+        color: #fff;
+        font-size: 30px !important;
+    }
+    .price__list {
+         width: 100% !important;
+        margin: 0 auto;
+        margin-top: 80px;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .price__item {
+        width: 55%;
+        margin: 20px 0;
+        padding: 15px 0 25px 0;
+        border: 4px solid #fff;
+        background: #fff;
+        border-radius: 35px;
+    }
+    .price__item h3 {
+        margin-top: 3px;
+        font-size: 21px;
+    }
+    .price__item p {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .price__item h1 {
+        font-size: 33px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .price__item h4 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .price__item a {
+        color: #fff;
+        margin-top: 5px;
+        font-size: 11px;
+        display: inline-block;
+        font-weight: 700;
+        padding: 10px 29px;
+        border-radius: 28px;
+        background: #4525a1;
+    }
+
+
+    .info {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: flex !important;
+    }
+    .info>img{
+        width: 50% !important;
+    }
+    .home__flex div .content p{
+        font-size: 13px !important;
+        padding-left: 10%;
+        margin-top: -32px;
+    }
+    .home__info .home__info-box {
+        width: 40% !important;
+    }
+    .discord__home div .home__info .home__info-box p {
+        color: #fff;
+        font-size: 10px;
+        margin-left: 20px;
+        position: relative;
+        font-weight: 700;
+    }
+    .services__link a{
+        width: 75% !important;
+    }
+    .services__title {
+        text-align: center;
+        color: #fff;
+        font-size: 35px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .logo-absolute {
+        position: absolute !important;
+        width: 40px !important;
+        top: 85% !important;
+        right: 29% !important;
+    }
+}
+@media screen and (min-width: 576px) {
+    .line {
+        width: 91%;
+        height: 2px;
+        top: 93%;
+        left: 5%;
+        right: 0% !important;
+        background: #fff !important;
+    }
+    .logo-absolute {
+        position: absolute !important;
+        width: 75px !important;
+        top: 85% !important;
+        right: 15% !important;
+    
+    }
+}
+@media screen and (min-width: 992px) {
+    .line {
+        width: 91%;
+        height: 2px;
+        top: 93%;
+        left: 5%;
+        right: 0% !important;
+        background: #fff !important;
+    }
+    .logo-absolute {
+        position: absolute !important;
+        width: 75px !important;
+        top: 80% !important;
+        right: 8% !important;
+    
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1145px){
+.price__item {
+    width: 30%;
+    padding: 15px 0px 40px;
+    border: 4px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    border-radius: 35px;}
+}
+@media screen and (min-width: 1145px){
+    .price__item h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+}
 
 
 /*# sourceMappingURL=main.min.css.map */
